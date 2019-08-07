@@ -17,6 +17,7 @@
 		3DAB7AB822FAACE100FEEE14 /* ThreeSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAB7AB622FAACE100FEEE14 /* ThreeSum.swift */; };
 		3DAB7AB922FAACE100FEEE14 /* MajorityElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAB7AB722FAACE100FEEE14 /* MajorityElement.swift */; };
 		3DAB7ABB22FAB20500FEEE14 /* FizzBuzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAB7ABA22FAB20500FEEE14 /* FizzBuzz.swift */; };
+		3DAB7ABD22FAB54D00FEEE14 /* MergeSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAB7ABC22FAB54D00FEEE14 /* MergeSortedArray.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		3DAB7AB622FAACE100FEEE14 /* ThreeSum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreeSum.swift; sourceTree = "<group>"; };
 		3DAB7AB722FAACE100FEEE14 /* MajorityElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MajorityElement.swift; sourceTree = "<group>"; };
 		3DAB7ABA22FAB20500FEEE14 /* FizzBuzz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzz.swift; sourceTree = "<group>"; };
+		3DAB7ABC22FAB54D00FEEE14 /* MergeSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSortedArray.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 				3DAB7AB622FAACE100FEEE14 /* ThreeSum.swift */,
 				3DAB7AB722FAACE100FEEE14 /* MajorityElement.swift */,
 				3DAB7ABA22FAB20500FEEE14 /* FizzBuzz.swift */,
+				3DAB7ABC22FAB54D00FEEE14 /* MergeSortedArray.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DAB7ABB22FAB20500FEEE14 /* FizzBuzz.swift in Sources */,
+				3DAB7ABD22FAB54D00FEEE14 /* MergeSortedArray.swift in Sources */,
 				3DAB7A8222FAAAAD00FEEE14 /* ViewController.swift in Sources */,
 				3DAB7AB922FAACE100FEEE14 /* MajorityElement.swift in Sources */,
 				3DAB7AB822FAACE100FEEE14 /* ThreeSum.swift in Sources */,
