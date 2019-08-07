@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Solution {
+class ThreeSum {
     static func threeSum(_ nums: [Int]) -> [[Int]] {
         guard nums.count >= 3 else {return []}
         let nums = nums.sorted()

@@ -14,7 +14,8 @@
 		3DAB7A8A22FAAAAD00FEEE14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DAB7A8822FAAAAD00FEEE14 /* LaunchScreen.storyboard */; };
 		3DAB7A9522FAAAAE00FEEE14 /* AlgorithmsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAB7A9422FAAAAE00FEEE14 /* AlgorithmsTests.swift */; };
 		3DAB7AA022FAAAAE00FEEE14 /* AlgorithmsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAB7A9F22FAAAAE00FEEE14 /* AlgorithmsUITests.swift */; };
-		3DAB7AAF22FAAACA00FEEE14 /* ThreeSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAB7AAE22FAAACA00FEEE14 /* ThreeSum.swift */; };
+		3DAB7AB822FAACE100FEEE14 /* ThreeSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAB7AB622FAACE100FEEE14 /* ThreeSum.swift */; };
+		3DAB7AB922FAACE100FEEE14 /* MajorityElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAB7AB722FAACE100FEEE14 /* MajorityElement.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +49,8 @@
 		3DAB7A9B22FAAAAE00FEEE14 /* AlgorithmsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgorithmsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DAB7A9F22FAAAAE00FEEE14 /* AlgorithmsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmsUITests.swift; sourceTree = "<group>"; };
 		3DAB7AA122FAAAAE00FEEE14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3DAB7AAE22FAAACA00FEEE14 /* ThreeSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeSum.swift; sourceTree = "<group>"; };
+		3DAB7AB622FAACE100FEEE14 /* ThreeSum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreeSum.swift; sourceTree = "<group>"; };
+		3DAB7AB722FAACE100FEEE14 /* MajorityElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MajorityElement.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +101,9 @@
 		3DAB7A7E22FAAAAD00FEEE14 /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
+				3DAB7AB022FAAC7900FEEE14 /* Algorithms */,
 				3DAB7A7F22FAAAAD00FEEE14 /* AppDelegate.swift */,
 				3DAB7A8122FAAAAD00FEEE14 /* ViewController.swift */,
-				3DAB7AAD22FAAAB700FEEE14 /* Algorithms */,
 				3DAB7A8322FAAAAD00FEEE14 /* Main.storyboard */,
 				3DAB7A8622FAAAAD00FEEE14 /* Assets.xcassets */,
 				3DAB7A8822FAAAAD00FEEE14 /* LaunchScreen.storyboard */,
@@ -128,12 +130,21 @@
 			path = AlgorithmsUITests;
 			sourceTree = "<group>";
 		};
-		3DAB7AAD22FAAAB700FEEE14 /* Algorithms */ = {
+		3DAB7AB022FAAC7900FEEE14 /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
-				3DAB7AAE22FAAACA00FEEE14 /* ThreeSum.swift */,
+				3DAB7AB522FAACE100FEEE14 /* Array */,
 			);
-			name = Algorithms;
+			path = Algorithms;
+			sourceTree = "<group>";
+		};
+		3DAB7AB522FAACE100FEEE14 /* Array */ = {
+			isa = PBXGroup;
+			children = (
+				3DAB7AB622FAACE100FEEE14 /* ThreeSum.swift */,
+				3DAB7AB722FAACE100FEEE14 /* MajorityElement.swift */,
+			);
+			path = Array;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,7 +279,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DAB7A8222FAAAAD00FEEE14 /* ViewController.swift in Sources */,
-				3DAB7AAF22FAAACA00FEEE14 /* ThreeSum.swift in Sources */,
+				3DAB7AB922FAACE100FEEE14 /* MajorityElement.swift in Sources */,
+				3DAB7AB822FAACE100FEEE14 /* ThreeSum.swift in Sources */,
 				3DAB7A8022FAAAAD00FEEE14 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
