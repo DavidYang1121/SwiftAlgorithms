@@ -19,6 +19,7 @@
 		3DAB7ABB22FAB20500FEEE14 /* FizzBuzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAB7ABA22FAB20500FEEE14 /* FizzBuzz.swift */; };
 		3DAB7ABD22FAB54D00FEEE14 /* MergeSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAB7ABC22FAB54D00FEEE14 /* MergeSortedArray.swift */; };
 		3DAB7ABF22FABB0900FEEE14 /* FirstMissingPositive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAB7ABE22FABB0900FEEE14 /* FirstMissingPositive.swift */; };
+		3DAB7AC122FAD08300FEEE14 /* KthLargestElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAB7AC022FAD08300FEEE14 /* KthLargestElement.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		3DAB7ABA22FAB20500FEEE14 /* FizzBuzz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzz.swift; sourceTree = "<group>"; };
 		3DAB7ABC22FAB54D00FEEE14 /* MergeSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSortedArray.swift; sourceTree = "<group>"; };
 		3DAB7ABE22FABB0900FEEE14 /* FirstMissingPositive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstMissingPositive.swift; sourceTree = "<group>"; };
+		3DAB7AC022FAD08300FEEE14 /* KthLargestElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KthLargestElement.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +154,7 @@
 				3DAB7ABA22FAB20500FEEE14 /* FizzBuzz.swift */,
 				3DAB7ABC22FAB54D00FEEE14 /* MergeSortedArray.swift */,
 				3DAB7ABE22FABB0900FEEE14 /* FirstMissingPositive.swift */,
+				3DAB7AC022FAD08300FEEE14 /* KthLargestElement.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -292,6 +295,7 @@
 				3DAB7ABF22FABB0900FEEE14 /* FirstMissingPositive.swift in Sources */,
 				3DAB7A8222FAAAAD00FEEE14 /* ViewController.swift in Sources */,
 				3DAB7AB922FAACE100FEEE14 /* MajorityElement.swift in Sources */,
+				3DAB7AC122FAD08300FEEE14 /* KthLargestElement.swift in Sources */,
 				3DAB7AB822FAACE100FEEE14 /* ThreeSum.swift in Sources */,
 				3DAB7A8022FAAAAD00FEEE14 /* AppDelegate.swift in Sources */,
 			);
