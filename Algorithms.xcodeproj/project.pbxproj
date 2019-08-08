@@ -26,6 +26,7 @@
 		3DAB7ACC22FBF23600FEEE14 /* LinkedListCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAB7ACB22FBF23600FEEE14 /* LinkedListCycle.swift */; };
 		3DAB7ACE22FBFBD900FEEE14 /* LinkedListCycleII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAB7ACD22FBFBD900FEEE14 /* LinkedListCycleII.swift */; };
 		3DAB7AD022FC0CD700FEEE14 /* MergeTwoSortedLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAB7ACF22FC0CD700FEEE14 /* MergeTwoSortedLists.swift */; };
+		3DAB7AD222FC107E00FEEE14 /* ReverseNodesInk-Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAB7AD122FC107E00FEEE14 /* ReverseNodesInk-Group.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		3DAB7ACB22FBF23600FEEE14 /* LinkedListCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListCycle.swift; sourceTree = "<group>"; };
 		3DAB7ACD22FBFBD900FEEE14 /* LinkedListCycleII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListCycleII.swift; sourceTree = "<group>"; };
 		3DAB7ACF22FC0CD700FEEE14 /* MergeTwoSortedLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeTwoSortedLists.swift; sourceTree = "<group>"; };
+		3DAB7AD122FC107E00FEEE14 /* ReverseNodesInk-Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReverseNodesInk-Group.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +183,7 @@
 				3DAB7ACB22FBF23600FEEE14 /* LinkedListCycle.swift */,
 				3DAB7ACD22FBFBD900FEEE14 /* LinkedListCycleII.swift */,
 				3DAB7ACF22FC0CD700FEEE14 /* MergeTwoSortedLists.swift */,
+				3DAB7AD122FC107E00FEEE14 /* ReverseNodesInk-Group.swift */,
 			);
 			path = LinkedList;
 			sourceTree = "<group>";
@@ -324,6 +327,7 @@
 				3DAB7AB922FAACE100FEEE14 /* MajorityElement.swift in Sources */,
 				3DAB7AC122FAD08300FEEE14 /* KthLargestElement.swift in Sources */,
 				3DAB7ACC22FBF23600FEEE14 /* LinkedListCycle.swift in Sources */,
+				3DAB7AD222FC107E00FEEE14 /* ReverseNodesInk-Group.swift in Sources */,
 				3DAB7ACA22FBC5F800FEEE14 /* ReverseLinkedList.swift in Sources */,
 				3DAB7AC322FAD76A00FEEE14 /* SingleNumber.swift in Sources */,
 				3DAB7AB822FAACE100FEEE14 /* ThreeSum.swift in Sources */,
