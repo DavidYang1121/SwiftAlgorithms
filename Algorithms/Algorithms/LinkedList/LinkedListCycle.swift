@@ -14,14 +14,17 @@ class LinkedListCycle {
             return false
         }
         var slow: ListNode? = head
-        var fast: ListNode? = head?.next
-        while slow == fast {
-            if (fast == nil || fast?.next == nil) {
+        var fast: ListNode? = head
+        while slow != nil && fast != nil {
+            slow = slow?.next
+            if (fast?.next == nil) {
                 return false
             }
-            slow = slow?.next
             fast = fast?.next?.next
+            if (slow == fast) {
+                return true
+            }
         }
-        return true
+        return false
     }
 }
