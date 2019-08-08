@@ -22,6 +22,7 @@
 		3DAB7AC122FAD08300FEEE14 /* KthLargestElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAB7AC022FAD08300FEEE14 /* KthLargestElement.swift */; };
 		3DAB7AC322FAD76A00FEEE14 /* SingleNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAB7AC222FAD76A00FEEE14 /* SingleNumber.swift */; };
 		3DAB7AC522FADD7700FEEE14 /* FindAllDuplicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAB7AC422FADD7700FEEE14 /* FindAllDuplicates.swift */; };
+		3DAB7ACA22FBC5F800FEEE14 /* ReverseLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAB7AC922FBC5F800FEEE14 /* ReverseLinkedList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		3DAB7AC022FAD08300FEEE14 /* KthLargestElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KthLargestElement.swift; sourceTree = "<group>"; };
 		3DAB7AC222FAD76A00FEEE14 /* SingleNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleNumber.swift; sourceTree = "<group>"; };
 		3DAB7AC422FADD7700FEEE14 /* FindAllDuplicates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindAllDuplicates.swift; sourceTree = "<group>"; };
+		3DAB7AC922FBC5F800FEEE14 /* ReverseLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseLinkedList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 		3DAB7AB022FAAC7900FEEE14 /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
+				3DAB7AC822FBC5DB00FEEE14 /* LinkedList */,
 				3DAB7AB522FAACE100FEEE14 /* Array */,
 			);
 			path = Algorithms;
@@ -163,6 +166,14 @@
 				3DAB7AC422FADD7700FEEE14 /* FindAllDuplicates.swift */,
 			);
 			path = Array;
+			sourceTree = "<group>";
+		};
+		3DAB7AC822FBC5DB00FEEE14 /* LinkedList */ = {
+			isa = PBXGroup;
+			children = (
+				3DAB7AC922FBC5F800FEEE14 /* ReverseLinkedList.swift */,
+			);
+			path = LinkedList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,6 +314,7 @@
 				3DAB7AC522FADD7700FEEE14 /* FindAllDuplicates.swift in Sources */,
 				3DAB7AB922FAACE100FEEE14 /* MajorityElement.swift in Sources */,
 				3DAB7AC122FAD08300FEEE14 /* KthLargestElement.swift in Sources */,
+				3DAB7ACA22FBC5F800FEEE14 /* ReverseLinkedList.swift in Sources */,
 				3DAB7AC322FAD76A00FEEE14 /* SingleNumber.swift in Sources */,
 				3DAB7AB822FAACE100FEEE14 /* ThreeSum.swift in Sources */,
 				3DAB7A8022FAAAAD00FEEE14 /* AppDelegate.swift in Sources */,
