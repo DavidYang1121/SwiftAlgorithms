@@ -27,6 +27,8 @@
 		3DAB7ACE22FBFBD900FEEE14 /* LinkedListCycleII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAB7ACD22FBFBD900FEEE14 /* LinkedListCycleII.swift */; };
 		3DAB7AD022FC0CD700FEEE14 /* MergeTwoSortedLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAB7ACF22FC0CD700FEEE14 /* MergeTwoSortedLists.swift */; };
 		3DAB7AD222FC107E00FEEE14 /* ReverseNodesInk-Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAB7AD122FC107E00FEEE14 /* ReverseNodesInk-Group.swift */; };
+		3DAB7AD522FD0CF300FEEE14 /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAB7AD422FD0CF300FEEE14 /* QuickSort.swift */; };
+		3DAB7AD722FD0D0C00FEEE14 /* BubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAB7AD622FD0D0C00FEEE14 /* BubbleSort.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +75,8 @@
 		3DAB7ACD22FBFBD900FEEE14 /* LinkedListCycleII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListCycleII.swift; sourceTree = "<group>"; };
 		3DAB7ACF22FC0CD700FEEE14 /* MergeTwoSortedLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeTwoSortedLists.swift; sourceTree = "<group>"; };
 		3DAB7AD122FC107E00FEEE14 /* ReverseNodesInk-Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReverseNodesInk-Group.swift"; sourceTree = "<group>"; };
+		3DAB7AD422FD0CF300FEEE14 /* QuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
+		3DAB7AD622FD0D0C00FEEE14 /* BubbleSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSort.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +159,7 @@
 		3DAB7AB022FAAC7900FEEE14 /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
+				3DAB7AD322FD0CD200FEEE14 /* Sort */,
 				3DAB7AC822FBC5DB00FEEE14 /* LinkedList */,
 				3DAB7AB522FAACE100FEEE14 /* Array */,
 			);
@@ -186,6 +191,15 @@
 				3DAB7AD122FC107E00FEEE14 /* ReverseNodesInk-Group.swift */,
 			);
 			path = LinkedList;
+			sourceTree = "<group>";
+		};
+		3DAB7AD322FD0CD200FEEE14 /* Sort */ = {
+			isa = PBXGroup;
+			children = (
+				3DAB7AD422FD0CF300FEEE14 /* QuickSort.swift */,
+				3DAB7AD622FD0D0C00FEEE14 /* BubbleSort.swift */,
+			);
+			path = Sort;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -326,6 +340,7 @@
 				3DAB7AC522FADD7700FEEE14 /* FindAllDuplicates.swift in Sources */,
 				3DAB7AB922FAACE100FEEE14 /* MajorityElement.swift in Sources */,
 				3DAB7AC122FAD08300FEEE14 /* KthLargestElement.swift in Sources */,
+				3DAB7AD722FD0D0C00FEEE14 /* BubbleSort.swift in Sources */,
 				3DAB7ACC22FBF23600FEEE14 /* LinkedListCycle.swift in Sources */,
 				3DAB7AD222FC107E00FEEE14 /* ReverseNodesInk-Group.swift in Sources */,
 				3DAB7ACA22FBC5F800FEEE14 /* ReverseLinkedList.swift in Sources */,
@@ -334,6 +349,7 @@
 				3DAB7ACE22FBFBD900FEEE14 /* LinkedListCycleII.swift in Sources */,
 				3DAB7AD022FC0CD700FEEE14 /* MergeTwoSortedLists.swift in Sources */,
 				3DAB7A8022FAAAAD00FEEE14 /* AppDelegate.swift in Sources */,
+				3DAB7AD522FD0CF300FEEE14 /* QuickSort.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
