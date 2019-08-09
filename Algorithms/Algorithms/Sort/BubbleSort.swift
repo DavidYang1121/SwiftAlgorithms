@@ -11,10 +11,15 @@ import Foundation
 func bubbleSort<T: Comparable>(_ array: inout [T]) -> [T] {
     guard array.count > 1 else { return array }
     for i in 0..<array.count {
-        for j in i+1..<array.count {
-            if array[i] > array[j] {
-                array.swapAt(i, j)
+        var isExchanged = false
+        for j in 0..<(array.count - i - 1) {
+            if array[j] > array[j + 1] {
+                array.swapAt(j, j + 1)
+                isExchanged = true
             }
+        }
+        if !isExchanged {
+            break
         }
     }
     return array
