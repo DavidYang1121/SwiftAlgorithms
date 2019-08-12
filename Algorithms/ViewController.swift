@@ -36,9 +36,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        var array = [ 10, 0, 3, 9, 2, 14, 26, 27, 1, 5, 8, -1, 8 ]
-        var result = bubbleSort(&array)
-        print(result)
+        print(ReverseWords().reverseWords("the sky is blue"))
     }
 
 

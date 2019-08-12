@@ -33,11 +33,24 @@ class InvertTree {
         return root
     }
     
-//    func invertTree2(_ root: TreeNode?) -> TreeNode? {
-//        if root == nil {
-//            return nil
-//        }
-//        var stack = 
-//    }
+    func invertTree2(_ root: TreeNode?) -> TreeNode? {
+        if root == nil {
+            return nil
+        }
+        var stack = Stack<TreeNode>()
+        stack.push(item: root!)
+        while let node = stack.pop() {
+            let left = node.left
+            node.left = node.right
+            node.right = left
+            if node.left != nil {
+                stack.push(item: node.left!)
+            }
+            if node.right != nil {
+                stack.push(item: node.right!)
+            }
+        }
+        return root
+    }
     
 }
