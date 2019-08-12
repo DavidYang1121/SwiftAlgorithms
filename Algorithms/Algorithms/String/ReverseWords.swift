@@ -32,7 +32,7 @@ class ReverseWords {
                 start = i + 2
             }
         }
-        
-        return String(chars)
+        let result = String(chars).split(separator: " ")
+        return result.joined(separator: " ")
     }
 }
