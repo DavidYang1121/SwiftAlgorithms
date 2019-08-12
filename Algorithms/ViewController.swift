@@ -7,36 +7,14 @@
 //
 
 import UIKit
-func partitionLomuto<T: Comparable>(_ a: inout [T], low: Int, high: Int) -> Int {
-    let pivot = a[high]
-    
-    var i = low
-    for j in low..<high {
-        if a[j] <= pivot {
-            a.swapAt(i, j)
-            i += 1
-        }
-        print(a)
-    }
-    
-    a.swapAt(i, high)
-    return i
-}
 
-func quicksortLomuto<T: Comparable>(_ a: inout [T], low: Int, high: Int) {
-    if low < high {
-        let p = partitionLomuto(&a, low: low, high: high)
-        quicksortLomuto(&a, low: low, high: p - 1)
-        quicksortLomuto(&a, low: p + 1, high: high)
-    }
-}
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        print(ReverseWords().reverseWords("the sky is blue"))
+        print(SimplifyPath.simplifyPath("/a//b////c/d//././/.."))
     }
 
 

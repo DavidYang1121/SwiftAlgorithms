@@ -35,6 +35,7 @@
 		3DAB7AE0230137BE00FEEE14 /* ReverseWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAB7ADF230137BE00FEEE14 /* ReverseWords.swift */; };
 		3DAB7AE22301471600FEEE14 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAB7AE12301471600FEEE14 /* LinkedList.swift */; };
 		3DAB7AE423014B4C00FEEE14 /* RemoveNthFromEnd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAB7AE323014B4C00FEEE14 /* RemoveNthFromEnd.swift */; };
+		3DAB7AE62301744C00FEEE14 /* SimplifyPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAB7AE52301744C00FEEE14 /* SimplifyPath.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +90,7 @@
 		3DAB7ADF230137BE00FEEE14 /* ReverseWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseWords.swift; sourceTree = "<group>"; };
 		3DAB7AE12301471600FEEE14 /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 		3DAB7AE323014B4C00FEEE14 /* RemoveNthFromEnd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveNthFromEnd.swift; sourceTree = "<group>"; };
+		3DAB7AE52301744C00FEEE14 /* SimplifyPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplifyPath.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,7 +182,7 @@
 			isa = PBXGroup;
 			children = (
 				3DAB7ADE230137AD00FEEE14 /* String */,
-				3DAB7AD923010B8100FEEE14 /* Custom */,
+				3DAB7AD923010B8100FEEE14 /* Stack、Queue */,
 				3D6D298A230065DF0018E780 /* Tree */,
 				3DAB7AD322FD0CD200FEEE14 /* Sort */,
 				3DAB7AC822FBC5DB00FEEE14 /* LinkedList */,
@@ -227,13 +229,14 @@
 			path = Sort;
 			sourceTree = "<group>";
 		};
-		3DAB7AD923010B8100FEEE14 /* Custom */ = {
+		3DAB7AD923010B8100FEEE14 /* Stack、Queue */ = {
 			isa = PBXGroup;
 			children = (
 				3DAB7ADA23010B9100FEEE14 /* Stack.swift */,
 				3DAB7ADC23010F9200FEEE14 /* Queue.swift */,
+				3DAB7AE52301744C00FEEE14 /* SimplifyPath.swift */,
 			);
-			path = Custom;
+			path = "Stack、Queue";
 			sourceTree = "<group>";
 		};
 		3DAB7ADE230137AD00FEEE14 /* String */ = {
@@ -398,6 +401,7 @@
 				3DAB7ADB23010B9100FEEE14 /* Stack.swift in Sources */,
 				3DAB7AE22301471600FEEE14 /* LinkedList.swift in Sources */,
 				3DAB7AD522FD0CF300FEEE14 /* QuickSort.swift in Sources */,
+				3DAB7AE62301744C00FEEE14 /* SimplifyPath.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
