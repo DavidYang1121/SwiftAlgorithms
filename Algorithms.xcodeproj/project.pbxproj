@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3D6D298C230066010018E780 /* InvertTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6D298B230066010018E780 /* InvertTree.swift */; };
+		3D6D29902301AE260018E780 /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6D298F2301AE260018E780 /* Tree.swift */; };
 		3DAB7A8022FAAAAD00FEEE14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAB7A7F22FAAAAD00FEEE14 /* AppDelegate.swift */; };
 		3DAB7A8222FAAAAD00FEEE14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAB7A8122FAAAAD00FEEE14 /* ViewController.swift */; };
 		3DAB7A8522FAAAAD00FEEE14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DAB7A8322FAAAAD00FEEE14 /* Main.storyboard */; };
@@ -57,6 +58,7 @@
 
 /* Begin PBXFileReference section */
 		3D6D298B230066010018E780 /* InvertTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvertTree.swift; sourceTree = "<group>"; };
+		3D6D298F2301AE260018E780 /* Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tree.swift; sourceTree = "<group>"; };
 		3DAB7A7C22FAAAAD00FEEE14 /* Algorithms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algorithms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DAB7A7F22FAAAAD00FEEE14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DAB7A8122FAAAAD00FEEE14 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 		3D6D298A230065DF0018E780 /* Tree */ = {
 			isa = PBXGroup;
 			children = (
+				3D6D298F2301AE260018E780 /* Tree.swift */,
 				3D6D298B230066010018E780 /* InvertTree.swift */,
 			);
 			path = Tree;
@@ -383,6 +386,7 @@
 				3DAB7ABF22FABB0900FEEE14 /* FirstMissingPositive.swift in Sources */,
 				3D6D298C230066010018E780 /* InvertTree.swift in Sources */,
 				3DAB7A8222FAAAAD00FEEE14 /* ViewController.swift in Sources */,
+				3D6D29902301AE260018E780 /* Tree.swift in Sources */,
 				3DAB7AC522FADD7700FEEE14 /* FindAllDuplicates.swift in Sources */,
 				3DAB7AB922FAACE100FEEE14 /* MajorityElement.swift in Sources */,
 				3DAB7AC122FAD08300FEEE14 /* KthLargestElement.swift in Sources */,
