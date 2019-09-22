@@ -22,3 +22,5 @@ func binarySearch(_ nums: [Int], _ target: Int) -> Int {
     }
     return -1
 }
+
+
