@@ -9,9 +9,9 @@
 import Foundation
 
 func binarySearch(_ nums: [Int], _ target: Int) -> Int {
-    var left = 0, mid = 0, right = nums.count - 1
+    var left = 0, right = nums.count - 1
     while left <= right {
-        mid = (right - left) / 2 + left
+        let mid = ((right - left) >> 1) + left
         if nums[mid] < target {
             left = mid + 1
         } else if nums[mid] > target {
