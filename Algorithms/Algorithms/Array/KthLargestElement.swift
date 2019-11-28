@@ -10,7 +10,7 @@ import Foundation
 
 class KthLargestElement {
   static  func findKthLargest(_ nums: [Int], _ k: Int) -> Int {
-        var nums = nums.sorted { (first, second) -> Bool in
+    let nums = nums.sorted { (first, second) -> Bool in
             first > second
         }
         if (k - 1 >= 0 && k - 1 < nums.count) {

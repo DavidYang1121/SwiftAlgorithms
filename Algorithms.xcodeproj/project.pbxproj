@@ -338,13 +338,16 @@
 				TargetAttributes = {
 					3DAB7A7B22FAAAAD00FEEE14 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1100;
 					};
 					3DAB7A8F22FAAAAE00FEEE14 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1100;
 						TestTargetID = 3DAB7A7B22FAAAAD00FEEE14;
 					};
 					3DAB7A9A22FAAAAE00FEEE14 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1100;
 						TestTargetID = 3DAB7A7B22FAAAAD00FEEE14;
 					};
 				};
@@ -613,7 +616,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.davidyang.Algorithms;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -631,7 +634,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.davidyang.Algorithms;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -651,7 +654,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.davidyang.AlgorithmsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Algorithms.app/Algorithms";
 			};
@@ -672,7 +675,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.davidyang.AlgorithmsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Algorithms.app/Algorithms";
 			};
@@ -692,7 +695,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.davidyang.AlgorithmsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Algorithms;
 			};
@@ -712,7 +715,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.davidyang.AlgorithmsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Algorithms;
 			};

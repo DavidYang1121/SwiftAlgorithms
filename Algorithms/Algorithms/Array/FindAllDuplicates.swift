@@ -14,7 +14,7 @@ class FindAllDuplicates {
             return []
         }
         var result: [Int] = []
-        var nums = nums.sorted()
+        let nums = nums.sorted()
         var times = 1
         for i in 1..<nums.count {
             if (nums[i] != nums[i - 1]) {
