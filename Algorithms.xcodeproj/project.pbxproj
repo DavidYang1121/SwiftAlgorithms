@@ -192,7 +192,7 @@
 		3DAB7AB022FAAC7900FEEE14 /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
-				3DAB7AEA2302BFE600FEEE14 /* Apply */,
+				3DAB7AEA2302BFE600FEEE14 /* BinarySearch */,
 				3DAB7ADE230137AD00FEEE14 /* String */,
 				3DAB7AD923010B8100FEEE14 /* Stack、Queue */,
 				3D6D298A230065DF0018E780 /* Tree */,
@@ -262,12 +262,12 @@
 			path = String;
 			sourceTree = "<group>";
 		};
-		3DAB7AEA2302BFE600FEEE14 /* Apply */ = {
+		3DAB7AEA2302BFE600FEEE14 /* BinarySearch */ = {
 			isa = PBXGroup;
 			children = (
 				3DAB7AEB2302C00900FEEE14 /* BinarySearch.swift */,
 			);
-			path = Apply;
+			path = BinarySearch;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
