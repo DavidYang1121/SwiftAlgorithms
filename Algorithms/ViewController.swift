@@ -9,12 +9,16 @@
 import UIKit
 
 
+
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        print(binarySearch([2,5], 5))
+      var array = [5, 4, 1, 7, 5, 10]
+      selectionSort(&array)
+      print(array)
     }
 }
 
