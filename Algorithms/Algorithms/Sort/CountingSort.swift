@@ -23,7 +23,7 @@ func countingSort(_ a: inout [Int]) {
     }
     
     //生成(max + 1)个计数桶
-    var counting = Array.init(repeating: 0, count: max + 1)
+    var counting = [Int](repeating: 0, count: max + 1)
     for i in 0..<a.count {
         counting[a[i]] += 1
     }
