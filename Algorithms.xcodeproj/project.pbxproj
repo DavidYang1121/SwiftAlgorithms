@@ -41,6 +41,7 @@
 		3DAB7AEC2302C00900FEEE14 /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAB7AEB2302C00900FEEE14 /* BinarySearch.swift */; };
 		3DE614B9238F7945005540BB /* InsertionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE614B8238F7945005540BB /* InsertionSort.swift */; };
 		3DE614BB238F7A13005540BB /* SelectionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE614BA238F7A13005540BB /* SelectionSort.swift */; };
+		3DE614BD238FC59A005540BB /* CountingSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE614BC238FC59A005540BB /* CountingSort.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +102,7 @@
 		3DAB7AEB2302C00900FEEE14 /* BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
 		3DE614B8238F7945005540BB /* InsertionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertionSort.swift; sourceTree = "<group>"; };
 		3DE614BA238F7A13005540BB /* SelectionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionSort.swift; sourceTree = "<group>"; };
+		3DE614BC238FC59A005540BB /* CountingSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountingSort.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -240,6 +242,7 @@
 				3DE614B8238F7945005540BB /* InsertionSort.swift */,
 				3DE614BA238F7A13005540BB /* SelectionSort.swift */,
 				3DAB7AE82302AD6600FEEE14 /* MergeSort.swift */,
+				3DE614BC238FC59A005540BB /* CountingSort.swift */,
 			);
 			path = Sort;
 			sourceTree = "<group>";
@@ -428,6 +431,7 @@
 				3DAB7AEC2302C00900FEEE14 /* BinarySearch.swift in Sources */,
 				3DAB7AD022FC0CD700FEEE14 /* MergeTwoSortedLists.swift in Sources */,
 				3DAB7A8022FAAAAD00FEEE14 /* AppDelegate.swift in Sources */,
+				3DE614BD238FC59A005540BB /* CountingSort.swift in Sources */,
 				3DAB7ADB23010B9100FEEE14 /* Stack.swift in Sources */,
 				3DAB7AE22301471600FEEE14 /* LinkedList.swift in Sources */,
 				3DE614BB238F7A13005540BB /* SelectionSort.swift in Sources */,
